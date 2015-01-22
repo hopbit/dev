@@ -12,3 +12,7 @@
         * http://git.or.cz/course/svn.html
         * https://continousintegration.wordpress.com/2013/02/18/how-to-git-rebase/
         * git svn working with branches 
+  * http://www.jukie.net/~bart/blog/svn-branches-in-git  
+  * http://viget.com/extend/effectively-using-git-with-subversion  
+  * https://www.kernel.org/pub/software/scm/git/docs/git-svn.html#_basic_examples 
+  * http://git.or.cz/course/svn.html  
