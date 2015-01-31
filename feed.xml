@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>JBake</title>
-    <link>http://siwinski.info/dev</link>
-    <atom:link href="http://siwinski.info/dev/feed.xml" rel="self" type="application/rss+xml" />
+    <link>http://siwinski.info/dev/</link>
+    <atom:link href="http://siwinski.info/dev//feed.xml" rel="self" type="application/rss+xml" />
     <description>JBake Bootstrap Template</description>
     <language>en-gb</language>
-    <pubDate>So, 31 sty 2015 00:46:36 +0100</pubDate>
-    <lastBuildDate>So, 31 sty 2015 00:46:36 +0100</lastBuildDate>
+    <pubDate>So, 31 sty 2015 14:04:49 +0100</pubDate>
+    <lastBuildDate>So, 31 sty 2015 14:04:49 +0100</lastBuildDate>
 
     <item>
       <title>Emacs Keyboard Shortcuts</title>
-      <link>http://siwinski.info/dev/emacs/emacs-keyboard-shortcuts.html</link>
+      <link>http://siwinski.info/dev//emacs/emacs-keyboard-shortcuts.html</link>
       <pubDate>Pt, 30 sty 2015 00:00:00 +0100</pubDate>
       <guid isPermaLink="false">emacs/emacs-keyboard-shortcuts.html</guid>
       	<description>
@@ -22,7 +22,7 @@
     </item>
     <item>
       <title>Git SVN How To</title>
-      <link>http://siwinski.info/dev/git/git-svn-how-to.html</link>
+      <link>http://siwinski.info/dev//git/git-svn-how-to.html</link>
       <pubDate>Cz, 22 sty 2015 00:00:00 +0100</pubDate>
       <guid isPermaLink="false">git/git-svn-how-to.html</guid>
       	<description>
@@ -51,7 +51,7 @@
     </item>
     <item>
       <title>Hello JBake!</title>
-      <link>http://siwinski.info/dev/jbake/hello-jbake.html</link>
+      <link>http://siwinski.info/dev//jbake/hello-jbake.html</link>
       <pubDate>N, 18 sty 2015 00:00:00 +0100</pubDate>
       <guid isPermaLink="false">jbake/hello-jbake.html</guid>
       	<description>
@@ -60,7 +60,7 @@
     </item>
     <item>
       <title>How to set up basic git config?</title>
-      <link>http://siwinski.info/dev/git/git-configuration.html</link>
+      <link>http://siwinski.info/dev//git/git-configuration.html</link>
       <pubDate>Pn, 18 lut 2013 00:00:00 +0100</pubDate>
       <guid isPermaLink="false">git/git-configuration.html</guid>
       	<description>

@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
     <url>
-        <loc>http://siwinski.info/devabout.html</loc>
+        <loc>http://siwinski.info/dev/about.html</loc>
         <lastmod>2015-01-18</lastmod>
     </url>
     <url>
-        <loc>http://siwinski.info/devemacs/emacs-keyboard-shortcuts.html</loc>
+        <loc>http://siwinski.info/dev/emacs/emacs-keyboard-shortcuts.html</loc>
         <lastmod>2015-01-30</lastmod>
     </url>
     <url>
-        <loc>http://siwinski.info/devgit/git-svn-how-to.html</loc>
+        <loc>http://siwinski.info/dev/git/git-svn-how-to.html</loc>
         <lastmod>2015-01-22</lastmod>
     </url>
     <url>
-        <loc>http://siwinski.info/devjbake/hello-jbake.html</loc>
+        <loc>http://siwinski.info/dev/jbake/hello-jbake.html</loc>
         <lastmod>2015-01-18</lastmod>
     </url>
     <url>
-        <loc>http://siwinski.info/devgit/git-configuration.html</loc>
+        <loc>http://siwinski.info/dev/git/git-configuration.html</loc>
         <lastmod>2013-02-18</lastmod>
     </url>
 </urlset>
