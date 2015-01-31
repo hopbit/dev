@@ -6,8 +6,8 @@
     <atom:link href="http://siwinski.info/dev//feed.xml" rel="self" type="application/rss+xml" />
     <description>JBake Bootstrap Template</description>
     <language>en-gb</language>
-    <pubDate>So, 31 sty 2015 14:04:49 +0100</pubDate>
-    <lastBuildDate>So, 31 sty 2015 14:04:49 +0100</lastBuildDate>
+    <pubDate>So, 31 sty 2015 14:07:01 +0100</pubDate>
+    <lastBuildDate>So, 31 sty 2015 14:07:01 +0100</lastBuildDate>
 
     <item>
       <title>Emacs Keyboard Shortcuts</title>
@@ -47,6 +47,17 @@
   &lt;li&gt;&lt;a href=&quot;http://git.or.cz/course/svn.html&quot;&gt;http://git.or.cz/course/svn.html&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr/&gt;
+	</description>
+    </item>
+    <item>
+      <title>How to resolve host name in python</title>
+      <link>http://siwinski.info/dev//python/how-to-resolve-host-name.html</link>
+      <pubDate>Cz, 22 sty 2015 00:00:00 +0100</pubDate>
+      <guid isPermaLink="false">python/how-to-resolve-host-name.html</guid>
+      	<description>
+	&lt;pre&gt;&lt;code&gt;import socket
+print (socket.gethostname())
+&lt;/code&gt;&lt;/pre&gt;
 	</description>
     </item>
     <item>
