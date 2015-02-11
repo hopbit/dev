@@ -6,8 +6,8 @@
     <atom:link href="http://siwinski.info/dev//feed.xml" rel="self" type="application/rss+xml" />
     <description>JBake Bootstrap Template</description>
     <language>en-gb</language>
-    <pubDate>Śr, 11 lut 2015 23:27:53 +0100</pubDate>
-    <lastBuildDate>Śr, 11 lut 2015 23:27:53 +0100</lastBuildDate>
+    <pubDate>Cz, 12 lut 2015 00:07:59 +0100</pubDate>
+    <lastBuildDate>Cz, 12 lut 2015 00:07:59 +0100</lastBuildDate>
 
     <item>
       <title>Emacs Keyboard Shortcuts</title>
@@ -120,6 +120,18 @@ Settings &amp;gt; Locking screen &amp;gt; Notifications &amp;gt; Short &amp;gt; 
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Additionally You can turn off Wi-Fi&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;Settings &amp;gt; Wi-Fi &amp;gt; Wi-Fi Networks &amp;gt; Off
 &lt;/code&gt;&lt;/pre&gt;
+	</description>
+    </item>
+    <item>
+      <title>How to create a tag?</title>
+      <link>http://siwinski.info/dev//git/how-to-create-a-tag.html</link>
+      <pubDate>Wt, 6 sie 2013 00:00:00 +0200</pubDate>
+      <guid isPermaLink="false">git/how-to-create-a-tag.html</guid>
+      	<description>
+	&lt;pre&gt;&lt;code&gt;git tag -a my-tag-name
+# or
+git tag -a my.tag.name -m &amp;quot;tag message - info about my tag&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;a href=&quot;http://git-scm.com/book/en/Git-Basics-Tagging#Creating-Tags&quot;&gt;More info&lt;/a&gt;&lt;/p&gt;
 	</description>
     </item>
     <item>
