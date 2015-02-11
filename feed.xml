@@ -6,8 +6,8 @@
     <atom:link href="http://siwinski.info/dev//feed.xml" rel="self" type="application/rss+xml" />
     <description>JBake Bootstrap Template</description>
     <language>en-gb</language>
-    <pubDate>Śr, 11 lut 2015 23:01:46 +0100</pubDate>
-    <lastBuildDate>Śr, 11 lut 2015 23:01:46 +0100</lastBuildDate>
+    <pubDate>Śr, 11 lut 2015 23:14:50 +0100</pubDate>
+    <lastBuildDate>Śr, 11 lut 2015 23:14:50 +0100</lastBuildDate>
 
     <item>
       <title>Emacs Keyboard Shortcuts</title>
@@ -83,6 +83,15 @@ git revert
 # push @ remote stream
 git push origin master
 &lt;/code&gt;&lt;/pre&gt;
+	</description>
+    </item>
+    <item>
+      <title>Jutro kolejna Warsjawa</title>
+      <link>http://siwinski.info/dev//pl/jutro-kolejna-warsjawa.html</link>
+      <pubDate>Pt, 11 paź 2013 00:00:00 +0200</pubDate>
+      <guid isPermaLink="false">pl/jutro-kolejna-warsjawa.html</guid>
+      	<description>
+	&lt;p&gt;Już jutro będzie miała miejsce kolejna edycja &lt;a title=&quot;Warsjawa&quot; href=&quot;http://warsjawa.pl/&quot;&gt;Warsjawy&lt;/a&gt;. Niestety w momencie startu rejestracji byłem jeszcze w trakcie urlopu.... Piszę niestety ponieważ wiem, że wolne miejsca znikają szybciej niż ostatnia wersja ajfona ze sklepów. Nie myliłem się, po powrocie do kraju zostało bardzo mało warsztatów do wyboru. W tym roku cały dzień został podzielony na 3 sloty czasowe. Zdecydowałem się na warsztaty Gradle zajmujące 2 pierwsze sloty, które będą prowadzone przez Michała Opałę i Arkadiusza Koniora. Ostatni slot, zostawiłem na networking.&lt;/p&gt;&lt;p&gt;Włączyłem komputer, założyłem słuchawki, odpaliłem na &lt;a href=&quot;http://youtu.be/Z4VfdZZJKuk&quot;&gt;dwa&lt;/a&gt; &lt;a href=&quot;http://www.youtube.com/watch?v=s6kg25zgw0o&quot; target=&quot;_blank&quot;&gt;sety&lt;/a&gt; i zabrałem się do przygotowania środowiska. Zgodnie z wiadomością wysłaną przez Michała potrzebne będą &lt;a href=&quot;http://www.oracle.com/technetwork/java/javase/downloads/index.html&quot;&gt;Java JDK v.1.7&lt;/a&gt;, &lt;a href=&quot;http://www.gradle.org/downloads&quot;&gt;Gradle 1.8&lt;/a&gt;, &lt;a href=&quot;http://groovy.codehaus.org/Download&quot;&gt;Groovy&lt;/a&gt;, &lt;a href=&quot;http://www.gradle.org/docs/current/userguide/userguide.html&quot;&gt;podręcznik Gradle&lt;/a&gt;, &lt;a href=&quot;https://github.com/Opalo/gradle-workshops&quot;&gt;zawartość repozytorium&lt;/a&gt; z Githuba (a co za tym idzie i &lt;a href=&quot;https://code.google.com/p/msysgit/downloads/list?can=3&amp;amp;q=&amp;amp;colspec=Filename+Summary+Uploaded+ReleaseDate+Size+DownloadCount&quot;&gt;Git&lt;/a&gt;) oraz wygodny edytor. Sprawdziłem czy mam wszystkie niezbędne narzędzia. Okazało się, że aktualizacji wymagały gradle i groovy. Pobieżne przejrzenie plików .gitignore pozwoliło mi wywnioskować, że najlepiej jeśli tym &quot;wygodnym edytorem&quot; będzie &lt;a href=&quot;http://www.jetbrains.com/idea/download/&quot;&gt;IntelliJ IDEA&lt;/a&gt;. Od jakiegoś czasu bardzo przypadł mi do gustu &lt;a href=&quot;http://www.sublimetext.com/&quot;&gt;Sublime Text&lt;/a&gt;. Uznałem jednak, że warsztaty to dobry pretekst, żeby wreszcie spróbować pobawić się IDE, które zachwala tak wielu znajomych deweloperów. Całość przygotowania, wraz z instalacją intellij i dociągnięciem zależności zdefiniowanych w dependencies.gradle zajęła mi ok. 30 min i poszła bezproblemowo. Całkiem szybko, byłem przekonany, że zejdzie się dłużej...&lt;/p&gt;&lt;p&gt;Do zobaczenia jutro rano.&lt;/p&gt;
 	</description>
     </item>
     <item>
