@@ -6,8 +6,8 @@
     <atom:link href="http://siwinski.info/dev//feed.xml" rel="self" type="application/rss+xml" />
     <description>JBake Bootstrap Template</description>
     <language>en-gb</language>
-    <pubDate>Cz, 12 lut 2015 00:07:59 +0100</pubDate>
-    <lastBuildDate>Cz, 12 lut 2015 00:07:59 +0100</lastBuildDate>
+    <pubDate>Cz, 12 lut 2015 00:17:05 +0100</pubDate>
+    <lastBuildDate>Cz, 12 lut 2015 00:17:05 +0100</lastBuildDate>
 
     <item>
       <title>Emacs Keyboard Shortcuts</title>
@@ -132,6 +132,22 @@ Settings &amp;gt; Locking screen &amp;gt; Notifications &amp;gt; Short &amp;gt; 
 # or
 git tag -a my.tag.name -m &amp;quot;tag message - info about my tag&amp;quot;
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;a href=&quot;http://git-scm.com/book/en/Git-Basics-Tagging#Creating-Tags&quot;&gt;More info&lt;/a&gt;&lt;/p&gt;
+	</description>
+    </item>
+    <item>
+      <title>Exit codes in Python</title>
+      <link>http://siwinski.info/dev//python/exit-codes-in-python.html</link>
+      <pubDate>Wt, 30 lip 2013 00:00:00 +0200</pubDate>
+      <guid isPermaLink="false">python/exit-codes-in-python.html</guid>
+      	<description>
+	&lt;pre&gt;&lt;code&gt;0 - success
+1 - error occured
+2 - syntax error
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Simple example:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;if(len(people) &amp;gt; 5):
+print &amp;quot;Too many people. Script execution is interrupted.&amp;quot;
+exit(1)
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;a href=&quot;http://www.wingware.com/psupport/python-manual/2.6/library/sys.html#sys.exit&quot;&gt;Reference&lt;/a&gt;&lt;/p&gt;
 	</description>
     </item>
     <item>

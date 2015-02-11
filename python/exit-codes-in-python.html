@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8"/>
-    <title>siwinskiDevLog (siwinski.info/dev)</title>
+    <title>Exit codes in Python</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -10,14 +10,14 @@
     <meta name="generator" content="JBake">
 
     <!-- Le styles -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/asciidoctor.css" rel="stylesheet">
-    <link href="css/base.css" rel="stylesheet">
-    <link href="css/prettify.css" rel="stylesheet">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/asciidoctor.css" rel="stylesheet">
+    <link href="../css/base.css" rel="stylesheet">
+    <link href="../css/prettify.css" rel="stylesheet">
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
-      <script src="js/html5shiv.min.js"></script>
+      <script src="../js/html5shiv.min.js"></script>
     <![endif]-->
 
     <!-- Fav and touch icons -->
@@ -25,11 +25,11 @@
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
     <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">-->
-    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="shortcut icon" href="../favicon.ico">
   </head>
   <body onload="prettyPrint()">
     <div id="wrap">
-
+	
 	<!-- Fixed navbar -->
     <div class="navbar navbar-default navbar-fixed-top" role="navigation">
       <div class="container">
@@ -40,14 +40,14 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="">siwinskiDevLog</a>
+          <a class="navbar-brand" href="../">siwinskiDevLog</a>
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li><a href="index.html">Blog</a></li>
+            <li><a href="../index.html">Blog</a></li>
             <li><a href="archive.html">Archive</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="feed.xml">Subscribe</a></li>
+            <li><a href="../about.html">About</a></li>
+            <li><a href="../feed.xml">Subscribe</a></li>
             <!--
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
@@ -68,20 +68,21 @@
     </div>
     <div class="container">	
 	<div class="page-header">
-		<h1>Tag: python</h1>
+		<h1>Exit codes in Python</h1>
 	</div>
-	
-	<!--<ul>-->
-			<h4>stycznia 2015</h4>
-			<ul>
-		
-		<li>22 - <a href="python/how-to-resolve-host-name.html">How to resolve host name in python</a></li>
-				</ul>
-				<h4>lipca 2013</h4>
-				<ul>
-		
-		<li>30 - <a href="python/exit-codes-in-python.html">Exit codes in Python</a></li>
-	</ul>
+
+	<p><em>30 lipca 2013</em></p>
+
+	<p><pre><code>0 - success
+1 - error occured
+2 - syntax error
+</code></pre><p>Simple example:</p>
+<pre><code>if(len(people) &gt; 5):
+print &quot;Too many people. Script execution is interrupted.&quot;
+exit(1)
+</code></pre><p><a href="http://www.wingware.com/psupport/python-manual/2.6/library/sys.html#sys.exit">Reference</a></p></p>
+
+	<hr />
 	
 		</div>
 		<div id="push"></div>
@@ -96,9 +97,9 @@
     <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="js/jquery-1.11.1.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/prettify.js"></script>
+    <script src="../js/jquery-1.11.1.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/prettify.js"></script>
     
   </body>
 </html>
