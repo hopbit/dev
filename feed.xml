@@ -6,8 +6,8 @@
     <atom:link href="http://siwinski.info/dev//feed.xml" rel="self" type="application/rss+xml" />
     <description>JBake Bootstrap Template</description>
     <language>en-gb</language>
-    <pubDate>So, 31 sty 2015 14:46:06 +0100</pubDate>
-    <lastBuildDate>So, 31 sty 2015 14:46:06 +0100</lastBuildDate>
+    <pubDate>Śr, 11 lut 2015 22:53:23 +0100</pubDate>
+    <lastBuildDate>Śr, 11 lut 2015 22:53:23 +0100</lastBuildDate>
 
     <item>
       <title>Emacs Keyboard Shortcuts</title>
@@ -67,6 +67,22 @@ print (socket.gethostname())
       <guid isPermaLink="false">jbake/hello-jbake.html</guid>
       	<description>
 	&lt;p&gt;I&apos;ve migrated to &lt;a href=&quot;http://jbake.org&quot;&gt;JBake&lt;/a&gt; and this is my first post created with it.&lt;/p&gt;
+	</description>
+    </item>
+    <item>
+      <title>Git Revert :P</title>
+      <link>http://siwinski.info/dev//git/git-revert.html</link>
+      <pubDate>Pn, 4 lis 2013 00:00:00 +0100</pubDate>
+      <guid isPermaLink="false">git/git-revert.html</guid>
+      	<description>
+	&lt;pre&gt;&lt;code&gt;# find your ‘wrong commit’ with
+git log # or
+gitk –all
+# revert, which will create ‘undo’ commit
+git revert
+# push @ remote stream
+git push origin master
+&lt;/code&gt;&lt;/pre&gt;
 	</description>
     </item>
     <item>
