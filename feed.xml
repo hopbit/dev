@@ -1,0 +1,111 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>JBake</title>
+    <link>http://siwinski.info/dev/</link>
+    <atom:link href="http://siwinski.info/dev//feed.xml" rel="self" type="application/rss+xml" />
+    <description>JBake Bootstrap Template</description>
+    <language>en-gb</language>
+    <pubDate>Śr, 11 lut 2015 23:01:46 +0100</pubDate>
+    <lastBuildDate>Śr, 11 lut 2015 23:01:46 +0100</lastBuildDate>
+
+    <item>
+      <title>Emacs Keyboard Shortcuts</title>
+      <link>http://siwinski.info/dev//emacs/emacs-keyboard-shortcuts.html</link>
+      <pubDate>Pt, 30 sty 2015 00:00:00 +0100</pubDate>
+      <guid isPermaLink="false">emacs/emacs-keyboard-shortcuts.html</guid>
+      	<description>
+	&lt;h1&gt;emacs shortcuts&lt;/h1&gt;&lt;p&gt;cancel current action &amp;gt;&amp;gt; C-g&lt;/p&gt;&lt;p&gt;switch current buffer (or create a new one) &amp;gt;&amp;gt; C-x b buffer-name enter&lt;/p&gt;&lt;p&gt;kill buffer &amp;gt;&amp;gt; C-x k eneter&lt;/p&gt;&lt;p&gt;open a file &amp;gt;&amp;gt; C-x C-f&lt;/p&gt;&lt;p&gt;save a file &amp;gt;&amp;gt; C-x how-clojure-babies-are-made-the-java-cycle&lt;/p&gt;&lt;p&gt;M-h :: match whole buffer&lt;br/&gt;C-/ :: undo (like ctrl + z in Windows)&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;    http://www.flyingmachinestudios.com/programming/how-clojure-babies-are-made-the-java-cycle/
+&lt;/code&gt;&lt;/pre&gt;
+	</description>
+    </item>
+    <item>
+      <title>Git SVN How To</title>
+      <link>http://siwinski.info/dev//git/git-svn-how-to.html</link>
+      <pubDate>Cz, 22 sty 2015 00:00:00 +0100</pubDate>
+      <guid isPermaLink="false">git/git-svn-how-to.html</guid>
+      	<description>
+	&lt;h2&gt;Useful commands&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;git svn clone --prefix=svn/ -s -r6805:HEAD https://your.svn.com/repo cloneDir
+# generate git svn ignore 
+&lt;/code&gt;&lt;/pre&gt;&lt;h2&gt;Links&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://stackoverflow.com/questions/3239759/checkout-remote-branch-using-git-svn&quot;&gt;https://stackoverflow.com/questions/3239759/checkout-remote-branch-using-git-svn&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://stackoverflow.com/questions/3140356/working-in-sync-with-svn-upstream/3220481#3220481&quot;&gt;http://stackoverflow.com/questions/3140356/working-in-sync-with-svn-upstream/3220481#3220481&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://stackoverflow.com/questions/4168411/how-does-git-svn-know-which-branch-to-dcommit-to&quot;&gt;http://stackoverflow.com/questions/4168411/how-does-git-svn-know-which-branch-to-dcommit-to&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://trac.parrot.org/parrot/wiki/git-svn-tutorial&quot;&gt;http://trac.parrot.org/parrot/wiki/git-svn-tutorial&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.janosgyerik.com/practical-tips-for-using-git-with-large-subversion-repositories/&quot;&gt;http://www.janosgyerik.com/practical-tips-for-using-git-with-large-subversion-repositories/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.kernel.org/pub/software/scm/git/docs/git-svn.html&quot;&gt;https://www.kernel.org/pub/software/scm/git/docs/git-svn.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://git-scm.com/book/en/v1/Git-and-Other-Systems-Git-and-Subversion&quot;&gt;http://git-scm.com/book/en/v1/Git-and-Other-Systems-Git-and-Subversion&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://git.or.cz/course/svn.html&quot;&gt;http://git.or.cz/course/svn.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://continousintegration.wordpress.com/2013/02/18/how-to-git-rebase/&quot;&gt;https://continousintegration.wordpress.com/2013/02/18/how-to-git-rebase/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;git svn working with branches&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.jukie.net/~bart/blog/svn-branches-in-git&quot;&gt;http://www.jukie.net/~bart/blog/svn-branches-in-git&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://viget.com/extend/effectively-using-git-with-subversion&quot;&gt;http://viget.com/extend/effectively-using-git-with-subversion&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.kernel.org/pub/software/scm/git/docs/git-svn.html#_basic_examples&quot;&gt;https://www.kernel.org/pub/software/scm/git/docs/git-svn.html#_basic_examples&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://git.or.cz/course/svn.html&quot;&gt;http://git.or.cz/course/svn.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr/&gt;
+	</description>
+    </item>
+    <item>
+      <title>How to resolve host name in python</title>
+      <link>http://siwinski.info/dev//python/how-to-resolve-host-name.html</link>
+      <pubDate>Cz, 22 sty 2015 00:00:00 +0100</pubDate>
+      <guid isPermaLink="false">python/how-to-resolve-host-name.html</guid>
+      	<description>
+	&lt;pre&gt;&lt;code&gt;import socket
+print (socket.gethostname())
+&lt;/code&gt;&lt;/pre&gt;
+	</description>
+    </item>
+    <item>
+      <title>Hello JBake!</title>
+      <link>http://siwinski.info/dev//jbake/hello-jbake.html</link>
+      <pubDate>N, 18 sty 2015 00:00:00 +0100</pubDate>
+      <guid isPermaLink="false">jbake/hello-jbake.html</guid>
+      	<description>
+	&lt;p&gt;I&apos;ve migrated to &lt;a href=&quot;http://jbake.org&quot;&gt;JBake&lt;/a&gt; and this is my first post created with it.&lt;/p&gt;
+	</description>
+    </item>
+    <item>
+      <title>Git Revert :P</title>
+      <link>http://siwinski.info/dev//git/git-revert.html</link>
+      <pubDate>Pn, 4 lis 2013 00:00:00 +0100</pubDate>
+      <guid isPermaLink="false">git/git-revert.html</guid>
+      	<description>
+	&lt;pre&gt;&lt;code&gt;# find your ‘wrong commit’ with
+git log # or
+gitk –all
+# revert, which will create ‘undo’ commit
+git revert
+# push @ remote stream
+git push origin master
+&lt;/code&gt;&lt;/pre&gt;
+	</description>
+    </item>
+    <item>
+      <title>How to set up basic git config?</title>
+      <link>http://siwinski.info/dev//git/git-configuration.html</link>
+      <pubDate>Pn, 18 lut 2013 00:00:00 +0100</pubDate>
+      <guid isPermaLink="false">git/git-configuration.html</guid>
+      	<description>
+	&lt;hr/&gt;&lt;h1&gt;basic &amp;amp; obligatory&lt;/h1&gt;&lt;p&gt;set user/commiter name&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;git config –global user.name “Kapitan Bomba”
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;set user/commiter email&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;git config –global user.email “kapitan.bomba@youtu.be”
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;em&gt;hint&lt;/em&gt;: type git config without “–global” option if you want&lt;br/&gt;to have settings specific only for current repository&lt;br/&gt;(it’ll write to project/.git/config file).&lt;/p&gt;
+&lt;hr/&gt;&lt;h1&gt;setting up nice colors&lt;/h1&gt;
+&lt;pre&gt;&lt;code&gt;git config –global color.diff auto
+git config –global color.status auto
+git config –global color.branch auto
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr/&gt;&lt;h1&gt;setting up default merge tool&lt;/h1&gt;
+&lt;pre&gt;&lt;code&gt;$ git config –global merge.tool vimdiff
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;or: kdiff3, tkdiff, meld, xxdiff, emerge, vimdiff, gvimdiff, ecmerge, opendiff &lt;/p&gt;&lt;p&gt;you can also setup a custom tool (fixme – how to do this???) &lt;/p&gt;
+	</description>
+    </item>
+
+  </channel> 
+</rss>

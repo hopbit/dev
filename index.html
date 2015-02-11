@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>siwinskiDevLog (siwinski.info/dev)</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="keywords" content="">
+    <meta name="generator" content="JBake">
+
+    <!-- Le styles -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/asciidoctor.css" rel="stylesheet">
+    <link href="css/base.css" rel="stylesheet">
+    <link href="css/prettify.css" rel="stylesheet">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.min.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+    <!--<link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">-->
+    <link rel="shortcut icon" href="favicon.ico">
+  </head>
+  <body onload="prettyPrint()">
+    <div id="wrap">
+	
+	<!-- Fixed navbar -->
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="">siwinskiDevLog</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">Blog</a></li>
+            <li><a href="archive.html">Archive</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="feed.xml">Subscribe</a></li>
+            <!--
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li class="divider"></li>
+                <li class="dropdown-header">Nav header</li>
+                <li><a href="#">Separated link</a></li>
+                <li><a href="#">One more separated link</a></li>
+              </ul>
+            </li>
+            -->
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+    <div class="container">
+	<div class="page-header">
+		<h1>Blog</h1>
+	</div>
+  			<a href="emacs/emacs-keyboard-shortcuts.html"><h1>Emacs Keyboard Shortcuts</h1></a>
+  			<p>30 stycznia 2015</p>
+  			<p><h1>emacs shortcuts</h1><p>cancel current action &gt;&gt; C-g</p><p>switch current buffer (or create a new one) &gt;&gt; C-x b buffer-name enter</p><p>kill buffer &gt;&gt; C-x k eneter</p><p>open a file &gt;&gt; C-x C-f</p><p>save a file &gt;&gt; C-x how-clojure-babies-are-made-the-java-cycle</p><p>M-h :: match whole buffer<br/>C-/ :: undo (like ctrl + z in Windows)</p>
+<pre><code>    http://www.flyingmachinestudios.com/programming/how-clojure-babies-are-made-the-java-cycle/
+</code></pre></p>
+  			<a href="git/git-svn-how-to.html"><h1>Git SVN How To</h1></a>
+  			<p>22 stycznia 2015</p>
+  			<p><h2>Useful commands</h2>
+<pre><code>git svn clone --prefix=svn/ -s -r6805:HEAD https://your.svn.com/repo cloneDir
+# generate git svn ignore 
+</code></pre><h2>Links</h2>
+<ul>
+  <li><a href="https://stackoverflow.com/questions/3239759/checkout-remote-branch-using-git-svn">https://stackoverflow.com/questions/3239759/checkout-remote-branch-using-git-svn</a></li>
+  <li><a href="http://stackoverflow.com/questions/3140356/working-in-sync-with-svn-upstream/3220481#3220481">http://stackoverflow.com/questions/3140356/working-in-sync-with-svn-upstream/3220481#3220481</a></li>
+  <li><a href="http://stackoverflow.com/questions/4168411/how-does-git-svn-know-which-branch-to-dcommit-to">http://stackoverflow.com/questions/4168411/how-does-git-svn-know-which-branch-to-dcommit-to</a></li>
+  <li><a href="http://trac.parrot.org/parrot/wiki/git-svn-tutorial">http://trac.parrot.org/parrot/wiki/git-svn-tutorial</a></li>
+  <li><a href="http://www.janosgyerik.com/practical-tips-for-using-git-with-large-subversion-repositories/">http://www.janosgyerik.com/practical-tips-for-using-git-with-large-subversion-repositories/</a></li>
+  <li><a href="https://www.kernel.org/pub/software/scm/git/docs/git-svn.html">https://www.kernel.org/pub/software/scm/git/docs/git-svn.html</a></li>
+  <li><a href="http://git-scm.com/book/en/v1/Git-and-Other-Systems-Git-and-Subversion">http://git-scm.com/book/en/v1/Git-and-Other-Systems-Git-and-Subversion</a></li>
+  <li><a href="http://git.or.cz/course/svn.html">http://git.or.cz/course/svn.html</a></li>
+  <li><a href="https://continousintegration.wordpress.com/2013/02/18/how-to-git-rebase/">https://continousintegration.wordpress.com/2013/02/18/how-to-git-rebase/</a></li>
+  <li>git svn working with branches</li>
+  <li><a href="http://www.jukie.net/~bart/blog/svn-branches-in-git">http://www.jukie.net/~bart/blog/svn-branches-in-git</a></li>
+  <li><a href="http://viget.com/extend/effectively-using-git-with-subversion">http://viget.com/extend/effectively-using-git-with-subversion</a></li>
+  <li><a href="https://www.kernel.org/pub/software/scm/git/docs/git-svn.html#_basic_examples">https://www.kernel.org/pub/software/scm/git/docs/git-svn.html#_basic_examples</a></li>
+  <li><a href="http://git.or.cz/course/svn.html">http://git.or.cz/course/svn.html</a></li>
+</ul>
+<hr/></p>
+  			<a href="python/how-to-resolve-host-name.html"><h1>How to resolve host name in python</h1></a>
+  			<p>22 stycznia 2015</p>
+  			<p><pre><code>import socket
+print (socket.gethostname())
+</code></pre></p>
+  			<a href="jbake/hello-jbake.html"><h1>Hello JBake!</h1></a>
+  			<p>18 stycznia 2015</p>
+  			<p><p>I've migrated to <a href="http://jbake.org">JBake</a> and this is my first post created with it.</p></p>
+  			<a href="git/git-revert.html"><h1>Git Revert :P</h1></a>
+  			<p>04 listopada 2013</p>
+  			<p><pre><code># find your ‘wrong commit’ with
+git log # or
+gitk –all
+# revert, which will create ‘undo’ commit
+git revert
+# push @ remote stream
+git push origin master
+</code></pre></p>
+  			<a href="git/git-configuration.html"><h1>How to set up basic git config?</h1></a>
+  			<p>18 lutego 2013</p>
+  			<p><hr/><h1>basic &amp; obligatory</h1><p>set user/commiter name</p>
+<pre><code>git config –global user.name “Kapitan Bomba”
+</code></pre><p>set user/commiter email</p>
+<pre><code>git config –global user.email “kapitan.bomba@youtu.be”
+</code></pre><p><em>hint</em>: type git config without “–global” option if you want<br/>to have settings specific only for current repository<br/>(it’ll write to project/.git/config file).</p>
+<hr/><h1>setting up nice colors</h1>
+<pre><code>git config –global color.diff auto
+git config –global color.status auto
+git config –global color.branch auto
+</code></pre>
+<hr/><h1>setting up default merge tool</h1>
+<pre><code>$ git config –global merge.tool vimdiff
+</code></pre><p>or: kdiff3, tkdiff, meld, xxdiff, emerge, vimdiff, gvimdiff, ecmerge, opendiff </p><p>you can also setup a custom tool (fixme – how to do this???) </p></p>
+	
+	<hr />
+	
+	<p>Older posts are available in the <a href="/archive.html">archive</a>.</p>
+
+		</div>
+		<div id="push"></div>
+    </div>
+    
+    <div id="footer">
+      <div class="container">
+        <p class="muted credit">&copy; Łukasz Siwiński 2015 | Mixed with <a href="http://getbootstrap.com/">Bootstrap v3.1.1</a> | Baked with <a href="http://jbake.org">JBake v2.3.2</a></p>
+      </div>
+    </div>
+    
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/prettify.js"></script>
+    
+  </body>
+</html>
